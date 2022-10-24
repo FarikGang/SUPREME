@@ -18,13 +18,33 @@ body {
 .contacts {
     display: flex;
     position: absolute;
-    top: 850px;
+    top: 800px;
     left: 820px;
     margin: 0 -5px;
 }
 .icons {
     flex: 1 1 auto;
     margin: 0 20px;
+}
+.links {
+    position: absolute;
+    display: flex;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-size: 20px;
+    flex-flow: column wrap;
+    top: 450px;
+    left: 750px;
+}
+.links2 {
+    text-decoration: none;
+    color: #fff;
+}
+.links li :hover{
+    color: #FAC422;
+}
+.news {
+
 }
 
 
